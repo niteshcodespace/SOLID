@@ -1,0 +1,22 @@
+we define the Bird class
+we have two method
+fly()
+eat()
+
+we create the parrot class and extends Bird class 
+ 
+ parrot can fly and eat --> it correct till here 
+ 
+ we create the Penguin class and extends Bird class 
+ 
+ logical penguin cannot fly but in Bird class we have
+  fly() 
+
+  This is the design problem 
+  
+ Technically  super class should not have such method 
+ 
+ **********************************************************************
+ 
+Best practise
+Lisvok Substitution Principle 
