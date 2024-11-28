@@ -1,0 +1,37 @@
+Good Practice - Always start with interface 
+
+step 1 - create abstract class Bird 
+
+step 2 - create  abstract method eat() in Bird class 
+
+step 4 - create class call flyingBird and extend Bird class
+
+step 5 - if flyingBird is normal class it need to implement Bird class abstract method --eat()
+
+step 6- if we make flyingIBird class as abstract class it not need to  implement Bird class
+ abstract method --eat() it own -the class with extend FlyingBird need to provide implementation
+step 7 - In flyingIBird class we can declare abstract method - > fly()
+
+step 8 - create abstract class called NonFlyingBird() and it extends Bird class
+ don't declare anything there.-->
+
+step 9  - create parrot class and it extends FlyingBird() class 
+
+step 10- Parrot class have to provide implementation of 
+ fly() - coming form FlyingBird class
+ eat() - coming from Bird class
+ 
+ step 11 - create Penguin class and extend  NonFlyingBird()
+  
+ step 12 - Penguin  class have to provide implementation of 
+ eat() - coming from Bird class only
+ 
+ // outcome of learning
+  we provided speration in the design 
+  Seperation of Behaviours
+  
+ click for button or link or checkbox not for text box so seperation can done with logically 
+ Webelement - WebInput, WebButton, WebSelect - 
+  
+  
+  
