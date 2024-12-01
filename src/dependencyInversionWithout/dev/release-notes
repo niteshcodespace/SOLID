@@ -1,0 +1,23 @@
+we define two classes
+BackEndDeveloper
+FrontEndDeveloper
+
+we create class Project  and define DeliverProject () 
+
+which internall call 
+BackEndDeveloper 
+FrontEndDeveloper --- > methods() 
+
+
+ we create bankingProject Class and call DeliverProject () 
+
+disadvantage of this approach 
+
+lot of object we create
+
+if have to add new developer in this code we need to touch code 
+-- voilation open closed principle 
+---no interface used
+
+
+

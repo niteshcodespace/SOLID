@@ -1,4 +1,4 @@
-package open;
+package ocOpen;
 
 public class TestArea {
 

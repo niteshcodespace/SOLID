@@ -1,0 +1,22 @@
+Step 1 - Define interface called SoftwareEngineer
+
+define three methods
+	void doCoding();
+	void coTesting();
+	void doDeployment();
+
+Step 1.1 - Define interface called QAEngineer
+
+Step 2 - we define Tester class which implement QAEngineer not  SoftwareEngineer
+because  We declare the method specific method  to QA 
+
+ and need to provide implementation of  QA related method
+ 
+ step 3 we created  TestSoftwareEngineer class where we create the object of 
+ tester class  and called all method /
+		void doTesting();
+		
+ 
+		
+Note - Here we segregate the interface --using interface segregation approch 
+ 

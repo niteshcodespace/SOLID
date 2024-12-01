@@ -1,0 +1,21 @@
+Step 1 - Define interface called SoftwareEngineer
+
+define three methods
+	void doCoding();
+	void coTesting();
+	void doDeployment();
+
+Step 2 - we define Tester class which implement SoftwareEngineer
+ and need to provide implementation of all three method
+ 
+ step 3 we created  TestSoftwareEngineer class where we create the object of 
+ tester class  and called all method 
+ 		void doCoding();
+		void coTesting();
+		void doDeployment();
+		
+		but tester can do only testing but due to bad design we are we have to implement the 
+		method which not need by tester 
+		
+To slove this problem we have to apply Interface segregation approch
+ 

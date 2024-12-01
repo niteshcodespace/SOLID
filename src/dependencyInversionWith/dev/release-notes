@@ -1,0 +1,42 @@
+we define two classes
+BackEndDeveloper
+FrontEndDeveloper
+
+we create class Project  and define DeliverProject () 
+
+which internal call 
+BackEndDeveloper 
+FrontEndDeveloper --- > methods() 
+
+
+ we create bankingProject Class and call DeliverProject () 
+
+disadvantage of this approach 
+
+lot of object we create
+
+if have to add new developer in this code we need to touch code 
+-- voilation open closed principle 
+---no interface used
+
+// to over come the above problem we declare 
+Developer --> Interface
+which have method --develop
+
+frontend and backend will implement the developer interface and provide implementation for develop()
+
+in project class we define constructor using list
+
+private List<Developer> developers = null;
+
+//constructor  -- we  define Developer type List and assign  to local variable using this
+//create constructor 
+	public Project(List<Developer> developers) {
+		this.developers = developers;
+	}
+	
+// we add all Developer using for.Each
+	public void deliverProject() {
+		developers.forEach(Developer::develop);
+
+
